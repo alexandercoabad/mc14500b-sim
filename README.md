@@ -4,7 +4,7 @@ Live: https://alexandercoabad.github.io/mc14500b-sim/
 
 Developed by Alexander Co Abad with the help of Claude AI (Sonnet 5.5)
 
-A browser simulator for the 1-bit MC14500B-style SoC in [MC14500B_IHP](https://github.com/alexandercoabad/MC14500B_IHP) (`tt_um_mc14500b_soc_extended`, Tiny Tapeout on IHP SG13G2). The whole simulator is one self-contained page, `index.html`: plain HTML and JavaScript, no build step, no external requests. Open it from GitHub Pages or straight from disk.
+A browser simulator for the 1-bit MC14500B-style SoC in [MC14500B_IHP](https://github.com/alexandercoabad/MC14500B_IHP) (`tt_um_mc14500b_soc_extended`, Tiny Tapeout on IHP SG13G2, [Tiny Tapeout chip page](https://www.tinytapeout.com/chips/ttihp26b/tt_um_mc14500b_soc_extended)). The whole simulator is one self-contained page, `index.html`: plain HTML and JavaScript, no build step, no external requests. Open it from GitHub Pages or straight from disk.
 
 ## What it models
 
