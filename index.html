@@ -32,7 +32,7 @@ pre{margin:0;font:12px/1.5 ui-monospace,Menlo,Consolas,monospace;overflow-x:auto
 #killed .kl{width:16px;height:16px;border-radius:50%;background:var(--off);border:1px solid var(--line);position:relative;display:inline-block}#killed .kl i{position:absolute;inset:0;border-radius:50%;background:var(--y);box-shadow:0 0 10px var(--y)}
 svg{width:100%;height:auto;display:block}.lt{fill-opacity:.14;transition:fill-opacity .04s}
 </style></head><body><div class="wrap">
-<header><div><h1>MC14500B Simulator</h1><p>Cycle-accurate model of <code>tt_um_mc14500b_soc_extended</code> (1-bit ICU, 64-byte program RAM, free-running PC, edge detector, clock divider, output shift latch) with runnable examples.</p></div>
+<header><div><h1>MC14500B Simulator</h1><p>Cycle-accurate model of <code>tt_um_mc14500b_soc_extended</code> (1-bit ICU, 64-byte program RAM, free-running PC, edge detector, clock divider, output shift latch) with runnable examples. Chip design: <a href="https://github.com/alexandercoabad/MC14500B_IHP" target="_blank" rel="noopener" style="color:var(--accent)">github.com/alexandercoabad/MC14500B_IHP</a>.</p></div>
 <button id="theme" type="button">Theme</button></header>
 <div class="grid"><div class="stack">
 <section class="panel"><h2>Example</h2><div class="row"><select id="ex"></select><button class="p" id="go">Assemble &amp; run</button><button id="pause">Pause</button><button id="step">Step instr.</button><label>Chip clock <select id="hz"><option value="1000">1 kHz</option><option value="5000">5 kHz</option><option value="10000">10 kHz</option><option value="50000">50 kHz</option><option value="100000">100 kHz</option><option value="250000">250 kHz</option><option value="1000000">1 MHz</option><option value="5000000">5 MHz</option></select></label></div>
@@ -53,7 +53,7 @@ svg{width:100%;height:auto;display:block}.lt{fill-opacity:.14;transition:fill-op
 </div><div class="stack">
 <section class="panel"><h2>State</h2><pre id="regs"></pre></section>
 <section class="panel"><h2>Program RAM (PC highlighted)</h2><div id="list"></div></section></div></div>
-<footer style="text-align:center;font-size:12px;color:var(--muted);margin-top:4px">Developed by Alexander Co Abad with the help of Claude AI (Sonnet 5.5)</footer></div>
+<footer style="text-align:center;font-size:12px;color:var(--muted);margin-top:4px">Developed by Alexander Co Abad with the help of Claude AI (Sonnet 5.5) · <a href="https://github.com/alexandercoabad/mc14500b-sim" target="_blank" rel="noopener" style="color:var(--accent)">Simulator source</a></footer></div>
 <script>
 /*CORE*/
 const S={};
